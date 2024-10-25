@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - name: Run Bash script
-        run: bash bash.sh
+        run: bash bash.sh >> output.txt
